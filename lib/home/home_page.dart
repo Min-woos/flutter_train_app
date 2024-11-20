@@ -144,7 +144,12 @@ class _HomePageState extends State<HomePage> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const SeatPage(
+                        builder: (context) => const SeatPage(),
+                        settings: RouteSettings(
+                          arguments: {
+                            'startStation' : departureStation,
+                            'endStation': arrivalStation,
+                          },
                         ),
                       ),
                     );
