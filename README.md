@@ -1,16 +1,21 @@
-# flutter_train_app
+# 플러터 기차 예매 앱
 
-A new Flutter project.
+![Nov-20-2024 11-34-37](https://github.com/user-attachments/assets/f78adf55-7604-47ed-b430-7fe156d72d58)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 필수 기능
 
-A few resources to get you started if this is your first Flutter project:
+1. StationList에서 출발역, 도착역 정보 받아오기
+2. HomeScreen에서 출발역, 도착역 정보 받아온 후 좌석 지정
+3. 좌석 지정 시 선택 된 좌석 퍼플 색상으로 변경
+4. 좌석 선택 후 예매하기 버튼 누르면 좌석번호를 보여주면서 확인 또는 취소
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 도전 기능
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. 시간부족으로 하지 못함
+
+## 나만의 기능
+
+1. 각 버튼(좌석 선택, 예매하기) 조건 미충족 시 버튼 비활성화
+
+- 출발역과 도착역을 선택하라고 밑 하단에 알림창이 2초 뜸
